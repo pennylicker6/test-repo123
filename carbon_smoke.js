@@ -1,9 +1,1 @@
-// Replace smoke with carbon dioxide on each tick
-elements["smke"].tick = function(pixel) {
-    changePixel(pixel, "carbon_dioxide");
-};
-
-// Make carbon_dioxide persistent (doesn't vanish on its own)
-elements["carbon_dioxide"].tick = function(pixel) {
-    // Do nothing, it just floats and lingers
-};
+elements["smke"].color = "#00FF00";  // Make smoke bright green
